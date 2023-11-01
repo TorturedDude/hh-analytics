@@ -1,0 +1,29 @@
+spring:
+  rabbitmq:
+    port: 5672
+
+rabbitmq:
+  exchange:
+    name: scheduled-tasks-exchange
+
+  routingKey:
+    analyticsBuilder: analytics-builder-service-task
+    vacancyImport: vacancy-import-service-task
+
+vacancyImportScheduledTaskDto:
+  pageSize: 100
+  pageNumber: 20
+
+application:
+  schedule:
+    delayMinutes: 60
+  queries:
+    - Java
+    - Kotlin
+    - Android
+    - Javascript
+    - React
+    - PHP
+    - iOS
+    - .NET
+    - Python

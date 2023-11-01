@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: "jdbc:mysql://analytics-db:3306/analytics_db"
+    username: analytics_service
+    password: ${MYSQL_PASSWORD}

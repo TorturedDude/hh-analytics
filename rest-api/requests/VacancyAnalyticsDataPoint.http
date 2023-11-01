@@ -1,0 +1,9 @@
+POST http://localhost:8080/test/vacancy
+Content-Type: application/json
+
+{
+  "date": "2021-02-12",
+  "query": "Java",
+  "vacancy_count": 5,
+  "salary": 100
+}

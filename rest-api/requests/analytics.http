@@ -1,0 +1,8 @@
+###
+GET http://localhost:8080/analytics/byQuery
+Content-Type: application/json
+
+
+###
+GET http://localhost:8080/analytics/history/Java?depth=30
+Content-Type: application/json

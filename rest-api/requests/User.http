@@ -1,0 +1,17 @@
+### Get user
+GET http://localhost:8080/user/
+Content-Type: application/json
+Authorization: Bearer {{auth_token}}
+
+### Update user
+POST http://localhost:8080/user/
+Content-Type: application/json
+Authorization: Bearer {{auth_token}}
+
+{
+  "telegramChatId": 3322441155667788
+}
+
+### Get users by query
+GET http://localhost:8080/users/byQuery/android
+Content-Type: application/json

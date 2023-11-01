@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost/analytics_db"
+    username: analytics_service
+    password: password
+
+logging:
+  level:
+    com.example.restapi: debug

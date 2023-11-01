@@ -1,0 +1,8 @@
+### registration user
+POST http://localhost:8080/auth/signup
+Content-Type: application/json
+
+{
+  "username": "newUser1",
+  "password": "123456"
+}

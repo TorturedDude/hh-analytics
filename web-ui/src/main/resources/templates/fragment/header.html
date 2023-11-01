@@ -1,0 +1,15 @@
+<header th:fragment="header (isLoggedIn, username)">
+    <nav class="navbar bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/">IT jobs market analytics</a>
+            <div th:if="${isLoggedIn}">
+                <a class="btn btn-outline" href="/profile">Profile</a>
+                <a class="btn btn-outline" href="/logout">Logout</a>
+            </div>
+            <div th:unless="${isLoggedIn}">
+                <a class="btn btn-outline" href="/sign-in">Sign In</a>
+                <a class="btn btn-outline" href="/sign-up">Sign Up</a>
+            </div>
+        </div>
+    </nav>
+</header>
