@@ -1,0 +1,13 @@
+spring:
+  rabbitmq:
+    host: rabbitmq
+    username: analytics_service
+    password: ${RABBIT_PASSWORD}
+
+bot:
+  token: ${BOT_TOKEN}
+  name: ${BOT_NAME}
+  site-url: http://it-jobs.zhukovsd.com/
+
+quota:
+  url: http://rate-limiter:8080/quota/telegram-api

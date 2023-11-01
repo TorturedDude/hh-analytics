@@ -1,0 +1,12 @@
+bot:
+  token: 6144630532:AAFdJTcUNaVwQEWueQW-Nz7Y5e2GYcxb89M
+  name: testmarkwerthhtu_bot
+
+spring:
+  rabbitmq:
+    host: 217.25.88.12
+    username: analytics_service
+    password: password
+
+quota:
+  url: http://217.25.88.12:8081/quota/telegram-api

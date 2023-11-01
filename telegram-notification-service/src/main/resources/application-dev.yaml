@@ -1,0 +1,12 @@
+spring:
+  rabbitmq:
+    host: rabbitmq
+    username: analytics_service
+    password: password
+
+bot:
+  token: 6144630532:AAFdJTcUNaVwQEWueQW-Nz7Y5e2GYcxb89M
+  name: testmarkwerthhtu_bot
+
+quota:
+  url: http://rate-limiter:8080/quota/telegram-api

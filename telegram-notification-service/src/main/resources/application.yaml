@@ -1,0 +1,13 @@
+bot:
+  name: testmarkwerthhtu_bot
+  site-url: http://localhost:8082/
+
+spring:
+  rabbitmq:
+    port: 5672
+
+rabbitmq:
+  queue: telegram-notifications-queue
+
+quota:
+  url: http://localhost:8081/quota/telegram-api

@@ -1,0 +1,14 @@
+POST http://217.25.88.12:15672/api/exchanges/%2f/amq.default/publish
+Content-Type: application/json
+Authorization: Basic YW5hbHl0aWNzX3NlcnZpY2U6cGFzc3dvcmQ=
+
+{
+  "properties": {
+    "content-type": "application/json"
+  },
+  "routing_key": "telegram-notifications-queue",
+
+  "payload":  "{\"chat_id\":-997642735, \"message\":\"Hi, new vacancy for you!\\n\\nhttps://hh.ru/applicant/resumes/view?resume=f069def5ff0bcc25e20039ed1f307157443935\"}",
+
+  "payload_encoding": "string"
+}
